@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Schmese Expert</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <article id="bot-container">
+      <div id="bot-input-container">
+        <form onsubmit="runBot(); return false">
+          Enter text or a twitter account name to try out the bot!
+          <input id="bot-input" name="data" type="text">
+          <input type="submit" value="Submit">
+        </form>       
+      </div>
+    </article>
+    <script src="./bot.js" type="module"></script>
+  </body>
+</html>
